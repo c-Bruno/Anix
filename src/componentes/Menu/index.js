@@ -12,7 +12,7 @@ function Menu(){
             </a>
 
             <Button as="a" className="ButtonLink" href="/">
-                Novo epsdio
+                Novo epsódio
             </Button>
         </nav>
     );
