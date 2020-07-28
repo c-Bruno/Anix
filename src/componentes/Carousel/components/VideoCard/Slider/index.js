@@ -18,15 +18,7 @@ const Container = styled.ul`
     &:before {
       font-size: 30px;
     }
-    
-   /*  &:not(&--open) .item:hover .show-details-button {
-        opacity: 1;
-    }
-
-    &:not(&--open) .item:hover {
-        transform: scale(1.5) !important;
-    } */
-  }
+ }
 
   .slick-prev {
     left: 0;

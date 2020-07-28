@@ -32,7 +32,15 @@
         {
           "titulo": "Luffy vs Kaydo",
           "url": "https://youtu.be/uUbvcyPABU0"
-        }     
+        },     
+        {
+          "titulo": "Ace vs Barba Negra",
+          "url": "https://www.youtube.com/watch?v=Y90HjYGF0d0"
+        },    
+        {
+          "titulo": "Luffy vs PX-5",
+          "url": "https://www.youtube.com/watch?v=Sx9tToy1e0A"
+        }            
       ]
     },
     {
@@ -48,12 +56,20 @@
           "url": "https://youtu.be/-77UEct0cZM"
         },
         {
+          "titulo": "Midoriya vs Bakugou",
+          "url": "https://www.youtube.com/watch?v=Wh1_nlLpNSM"
+        },
+        {
           "titulo": "Deku vs Gentle",
           "url": "https://youtu.be/eKxdIVWjuhk"
         },
         {
-          "titulo": "Midoriya vs Muscular ",
+          "titulo": "Midoriya vs Muscular",
           "url": "https://youtu.be/tKekhQulI8Y"
+        },
+        {
+          "titulo": "All Might vs Nomu",
+          "url": "https://www.youtube.com/watch?v=_0v0-CflT38"
         }
       ]
     },
@@ -70,6 +86,10 @@
           "url": "https://youtu.be/nYDcadIKSUg"
         },
         {
+          "titulo": "Alphonse vs. Pride and Kimblee",
+          "url": "https://www.youtube.com/watch?v=uyiEI12Ahcc"
+        },
+        {
           "titulo": "Mustang vs Envy",
           "url": "https://youtu.be/A-5XmgX3f68"
         },
@@ -78,60 +98,72 @@
           "url": "https://youtu.be/8qv7BBadI2k"
         },
         {
+          "titulo": "Mustang vs Lust",
+          "url": "https://www.youtube.com/watch?v=bfaWKpZH9LM"
+        },
+        {
           "titulo": "Nina transformada",
           "url": "https://www.youtube.com/watch?v=16L1iuGBgag"
         }
       ]
     },
     {
-      "titulo": "Filmes",
+      "titulo": "One punch man",
       "cor": "#4B0082",
+      "link_extra": {
+        "text": "Algo pode para-lo?",
+        "url": "https://pt.wikipedia.org/wiki/One_Punch-Man"
+      },
       "videos": [
         {
-          "titulo": "Interestellar",
-          "url": "https://www.youtube.com/watch?v=frD_IiY_A3E"
+          "titulo": "Abertura one punch man",
+          "url": "https://www.youtube.com/watch?v=atxYe-nOa9w"
         },
         {
-          "titulo": "Gattaca",
-          "url": "https://www.youtube.com/watch?v=Dl0tYLbrhhs"
+          "titulo": "Saitama vs Genos",
+          "url": "https://www.youtube.com/watch?v=zlqnyMzuU30"
         },
         {
-          "titulo": "A Chegada",
-          "url": "https://www.youtube.com/watch?v=rNciXGzYZms"
+          "titulo": "Saitama vs Subterraneans",
+          "url": "https://www.youtube.com/watch?v=iLF4NjTNr1o"
         },
         {
-          "titulo": "Feitiço do Tempo",
-          "url": "https://www.youtube.com/watch?v=zi8d69P9NvI"
+          "titulo": "Saitama and Suiryu vs Bakuzan and Gouketsu",
+          "url": "https://www.youtube.com/watch?v=h6PmbgL8SBo"
         }
       ]
     },
     {
-      "titulo": "Games",
+      "titulo": "Naruto",
       "cor": "red",
       "link_extra": {
-        "text": "Desce para o play",
-        "url": "https://store.playstation.com/pt-br/home/games?emcid=se-pi-243130&utm_medium=Search&utm_campaign=&utm_source=&utm_term=se-pi-243130&utm_content=,Search,ps-store_always-on,paystation-store_always-on&gclid=CjwKCAjw9vn4BRBaEiwAh0muDG1hgPt3PfVixmYdHRLyrm5fkaaV5cwcs0Nf3Ac3birii5xXdJd37BoC9AgQAvD_BwE"
-      },
+        "text": "Um ninja esta para surgir",
+        "url": "https://pt.wikipedia.org/wiki/Naruto"
+      },    
       "videos": [
         {
-          "titulo": "The Last of us",
-          "url": "https://www.youtube.com/watch?v=TXl9GI1p_Os"
+          "titulo": "Abertura Naruto",
+          "url": "https://www.youtube.com/watch?v=uMyuSHewmks"
         },
         {
-          "titulo": "Assassins Creed Valhalla",
-          "url": "https://www.youtube.com/watch?v=KDfdjB9uL0U"
+          "titulo": "Naruto vs Gaara",
+          "url": "https://www.youtube.com/watch?v=-xSsADhEPHU"
         },
         {
-          "titulo": "God of War 4",
-          "url": "https://www.youtube.com/watch?v=FyIwEFXOcaE"
+          "titulo": "Naruto and Sasuke vs Madara",
+          "url": "https://www.youtube.com/watch?v=J_WUp6eHfk0"
         },
         {
-          "titulo": "Uncharted 4",
-          "url": "https://www.youtube.com/watch?v=BD9dJZ6Dgx4"
+          "titulo": "Kakashi vs Obito",
+          "url": "https://www.youtube.com/watch?v=r2vDD9FFCVE"
         },
         {
-          "titulo": "Resident evil 3 remake",
-          "url": "https://www.youtube.com/watch?v=NzbuTvfiEp0"
+          "titulo": "Tsunade and Jiraya vs Orochimaru ",
+          "url": "https://www.youtube.com/watch?v=SMuH58GjEEA"
+        },
+        {
+          "titulo": "Orochimaru vs Hiruzen",
+          "url": "https://www.youtube.com/watch?v=AvvpeaBochc"
         }
       ]
     }
