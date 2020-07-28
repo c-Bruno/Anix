@@ -4,7 +4,7 @@ import { FooterBase } from './styles';
 function Footer() {
   return (
     <FooterBase>
-      <a href="https://www.alura.com.br/">
+      <a href="https://github.com/c-Bruno">
       <p>&copy;cBruno</p>
       </a>
     </FooterBase>
