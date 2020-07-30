@@ -1,0 +1,232 @@
+{
+    "categorias": [
+      {
+        "id": 1,
+        "titulo": "One piece",
+        "cor": "#008080",
+        "link_extra": {
+          "text": "Acompanhe Luffy e seus companheiros",
+          "url": "https://pt.wikipedia.org/wiki/One_Piece"
+        }},
+
+    {
+        "id": 2,
+        "titulo": "Boku no hero",
+        "cor": "#00C86F",
+        "link_extra": {
+          "text": "Você pode ser um herói?",
+          "url": "https://pt.wikipedia.org/wiki/Boku_no_Hero_Academia"
+        }},
+        
+    {
+        "id": 3,
+        "titulo": "Fullmetal",
+        "cor": "#DAA520",
+        "link_extra": {
+          "text": "Descubra a alquimia",
+          "url": "https://pt.wikipedia.org/wiki/Fullmetal_Alchemist"
+        }},
+        
+    {
+        "id": 4,
+        "titulo": "One punch man",
+        "cor": "#4B0082",
+        "link_extra": {
+          "text": "Algo pode para-lo?",
+          "url": "https://pt.wikipedia.org/wiki/One_Punch-Man"
+        }},
+
+    {
+        "id":5,
+        "titulo": "Naruto",
+        "cor": "red",
+        "link_extra": {
+          "text": "Um ninja esta para surgir",
+          "url": "https://pt.wikipedia.org/wiki/Naruto"
+        }}
+    ],
+
+    "videos": [
+        {
+            "id": 1,
+            "categoriaId": 1,
+            "titulo": "Você pode vencer este desafio ? #Kimetsu no Yaiba",
+            "url": "https://www.youtube.com/watch?v=pmanD_s7G3U&t=5s"
+        },
+        {
+            "id": 2,
+            "categoriaId": 1,
+            "titulo": "Abertura One Piece (1 - 19)",
+            "url": "https://youtu.be/2-lya77FnAY"
+        },
+        {
+             "id": 3,
+            "categoriaId": 1,
+            "titulo": "Zoro vs Killer",
+            "url": "https://youtu.be/ACHXunTGxUM"
+        },
+        {
+            "id": 4,
+            "categoriaId": 1,
+            "titulo": "Chopper vs Big mom",
+            "url": "https://youtu.be/S_BA5mLJJCo"
+        },
+        {
+            "id": 5,
+            "categoriaId": 1,
+            "titulo": "Sanji vs Katakuri",
+            "url": "https://youtu.be/5lKYsata3vA"
+        },
+        {
+            "id": 6,
+            "categoriaId": 1,
+            "titulo": "Luffy vs Kaydo",
+            "url": "https://youtu.be/uUbvcyPABU0"
+        },     
+        {
+            "id": 7,
+            "categoriaId": 1,
+            "titulo": "Ace vs Barba Negra",
+            "url": "https://www.youtube.com/watch?v=Y90HjYGF0d0"
+        },    
+        {
+            "id": 8,
+            "categoriaId": 1,
+            "titulo": "Luffy vs PX-5",
+            "url": "https://www.youtube.com/watch?v=Sx9tToy1e0A"
+        },            
+
+        {
+            "id": 9,
+            "categoriaId": 2,
+            "titulo": "Abertura Boku no Hero",
+            "url": "https://youtu.be/-77UEct0cZM"
+        },
+        {
+            "id": 10,
+            "categoriaId": 2,
+            "titulo": "Midoriya vs Bakugou",
+            "url": "https://www.youtube.com/watch?v=Wh1_nlLpNSM"
+        },
+        {
+            "id": 11,
+            "categoriaId": 2,
+            "titulo": "Deku vs Gentle",
+            "url": "https://youtu.be/eKxdIVWjuhk"
+        },
+        {
+            "id": 12,
+            "categoriaId": 2,
+            "titulo": "Midoriya vs Muscular",
+            "url": "https://youtu.be/tKekhQulI8Y"
+        },
+        {
+            "id": 13,
+            "categoriaId": 2,
+            "titulo": "All Might vs Nomu",
+            "url": "https://www.youtube.com/watch?v=_0v0-CflT38"
+        },
+      
+        {
+            "id": 14,
+            "categoriaId": 3,
+            "titulo": "Abertura Full Metal",
+            "url": "https://youtu.be/nYDcadIKSUg"
+        },
+        {
+            "id": 15,
+            "categoriaId": 3,
+            "titulo": "Alphonse vs. Pride and Kimblee",
+            "url": "https://www.youtube.com/watch?v=uyiEI12Ahcc"
+        },
+        {
+            "id": 16,
+            "categoriaId": 3,
+            "titulo": "Mustang vs Envy",
+            "url": "https://youtu.be/A-5XmgX3f68"
+        },
+        {
+            "id": 17,
+            "categoriaId": 3,
+            "titulo": "Final Battle",
+            "url": "https://youtu.be/8qv7BBadI2k"
+        },
+        {
+            "id": 18,
+            "categoriaId": 3,
+            "titulo": "Mustang vs Lust",
+            "url": "https://www.youtube.com/watch?v=bfaWKpZH9LM"
+        },
+        {
+            "id": 19,
+            "categoriaId": 3,
+            "titulo": "Nina transformada",
+            "url": "https://www.youtube.com/watch?v=16L1iuGBgag"
+        },
+      
+        {
+            "id": 20,
+            "categoriaId": 4,
+            "titulo": "Abertura one punch man",
+            "url": "https://www.youtube.com/watch?v=atxYe-nOa9w"
+        },
+        {
+            "id": 21,
+            "categoriaId": 4,
+            "titulo": "Saitama vs Genos",
+            "url": "https://www.youtube.com/watch?v=zlqnyMzuU30"
+        },
+        {
+            "id": 22,
+            "categoriaId": 4,
+            "titulo": "Saitama vs Subterraneans",
+            "url": "https://www.youtube.com/watch?v=iLF4NjTNr1o"
+        },
+        {
+            "id": 23,
+            "categoriaId": 4,
+            "titulo": "Saitama and Suiryu vs Bakuzan and Gouketsu",
+            "url": "https://www.youtube.com/watch?v=h6PmbgL8SBo"
+        },
+    
+        {
+            "id": 24,
+            "categoriaId": 5,
+            "titulo": "Abertura Naruto",
+            "url": "https://www.youtube.com/watch?v=uMyuSHewmks"
+        },
+        {
+            "id": 2,
+            "categoriaId": 5,
+            "titulo": "Naruto vs Gaara",
+            "url": "https://www.youtube.com/watch?v=-xSsADhEPHU"
+        },
+        {
+            "id": 25,
+            "categoriaId": 5,
+            "titulo": "Naruto and Sasuke vs Madara",
+            "url": "https://www.youtube.com/watch?v=J_WUp6eHfk0"
+        },
+        {
+            "id": 26,
+            "categoriaId": 5,
+            "titulo": "Kakashi vs Obito",
+            "url": "https://www.youtube.com/watch?v=r2vDD9FFCVE"
+        },
+        {
+            "id": 27,
+            "categoriaId": 5,
+            "titulo": "Tsunade and Jiraya vs Orochimaru ",
+            "url": "https://www.youtube.com/watch?v=SMuH58GjEEA"
+        },
+        {
+            "id": 28,
+            "categoriaId": 5,
+            "titulo": "Orochimaru vs Hiruzen",
+            "url": "https://www.youtube.com/watch?v=AvvpeaBochc"
+        }
+    ]
+}
+
+
+  

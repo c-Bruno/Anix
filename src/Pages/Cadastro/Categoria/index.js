@@ -1,7 +1,8 @@
-import React, { useState } from 'react'
+import React, { useState, useEffect } from 'react'
 import PageDefault from '../../../componentes/PageDefault'
-import { Link } from 'react-router-dom';
-import FormField from '../../../componentes/FormField';
+import { Link } from 'react-router-dom'
+import FormField from '../../../componentes/FormField'
+import Button from '../../../componentes/Button'
 
 
 function CadastroCategoria () {
@@ -29,6 +30,17 @@ function CadastroCategoria () {
             info.target.value
         )}
 
+    useEffect(() => {
+        const URL = 'http://localhost:8080/categorias'
+        fetch(URL)
+        .then(async (respostaDoServidor) => {
+            const resposta = await respostaDoServidor.json();
+            setCategorias([
+                ...resposta,
+            ]);
+        })
+    },[])
+
     return (
         <PageDefault>
             <h1>Cadastro de Categoria: {values.nome}</h1>
@@ -38,51 +50,51 @@ function CadastroCategoria () {
                 
                 setCategorias([
                     ...categorias, 
-                    values
+                    values,
                 ])
 
                 setValues(valoresIniciais)
-            }}>
+                }}>
 
-            <FormField
-                value={values.nome}
-                onChange={digitar}
-            />   
+                <FormField
+                    label={'Nome categoria'}
+                    type={'text'}
+                    name={'nome'}              
+                    value={values.nome}
+                    onChange={digitar}
+                />   
 
-            <div>
-            <label>
-                    Descrição:
-                <textarea
-                    type="text"
-                    name="descricao"
-                    value = {values.descricao}
-                    onChange={digitar} 
-                />
-                </label>
-            </div>
+                <FormField
+                    label={'Descrição'}
+                    type={'textarea'}
+                    name={'descricao'}              
+                    value={values.descricao}
+                    onChange={digitar}
+                />   
+                <FormField
+                    label={'Cor'}
+                    type={'color'}
+                    name={'cor'}              
+                    value={values.cor}
+                    onChange={digitar}
+                />              
 
-            <div>
-            <label>
-                    Cor:
-                <input
-                    type="color"
-                    name="cor"
-                    value = {values.cor}
-                    onChange = {digitar} 
-                />
-                </label>
-            </div>
-
-                <button>
+                <Button>
                 Cadastrar
-                </button>
+                </Button>
             </form>
+
+            {categorias.length === 0 && (
+                <div>
+                    Loading...
+                </div>
+            )}
 
             <ul>
                 {categorias.map((categoria, indice) => {
                     return (
-                        <li key={`${categoria} ${indice}`}>
-                            {categoria.nome}
+                        <li key={`${categoria}${indice}`}>
+                            {categoria.titulo}
                         </li>
 
                         
