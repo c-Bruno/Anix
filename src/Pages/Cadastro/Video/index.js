@@ -42,7 +42,6 @@ function CadastroVideo () {
                 });
 
 
-                /* alert('Video cadastrado com sucesso') */
                 videosRepository.create({
                     titulo: values.titulo,
                     url: values.url,
