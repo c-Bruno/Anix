@@ -44,17 +44,9 @@
         "text": "Um ninja esta para surgir",
         "url": "https://pt.wikipedia.org/wiki/Naruto"
       }
-    },
-    {
-      "titulo": "dsadsa",
-      "cor": "#c21414",
-      "link_extra": {
-        "text": "teste",
-        "url": "dsa"
-      },
-      "id": 6
     }
   ],
+  
   "videos": [
     {
       "id": 1,
@@ -200,12 +192,6 @@
       "id": 28,
       "categoriaId": 5,
       "url": "https://www.youtube.com/watch?v=AvvpeaBochc"
-    },
-    {
-      "titulo": "teste",
-      "url": "https://youtu.be/2-lya77FnAY",
-      "categoriaId": 6,
-      "id": 29
     }
   ]
 }
