@@ -12,10 +12,11 @@ import categoriasRepository from  '../../../repositories/categorias'
 function CadastroVideo () {
     const history = useHistory()
     const [categorias, setCategorias] = useState([])
+    const categoryTitles = categorias.map(({ titulo }) => titulo)
     const { values, digitar } = useForm({
-        titulo: 'Video Padrao',
-        url: 'https://youtu.be/2-lya77FnAY',
-        categoria: 'One piece'
+        titulo: '',
+        url: '',
+        categoria: ''
     })
 
     useEffect (() => {
@@ -25,7 +26,7 @@ function CadastroVideo () {
         })
     }, [])
 
-    console.log(categorias)
+    //console.log(categoryTitles)
 
     return (
         <PageDefault>
@@ -55,7 +56,7 @@ function CadastroVideo () {
                 >
 
                 <FormField
-                    label={'titulo do Video'}
+                    label={'Titulo do Video'}
                     type={'text'}
                     name={'titulo'}              
                     value={values.titulo}
@@ -75,9 +76,7 @@ function CadastroVideo () {
                     name={'categoria'}              
                     value={values.categoria}
                     onChange={digitar}
-                    suggestions={[
-                        'teste'
-                    ]}
+                    suggestions={categoryTitles}
                 />
 
                 <Button>

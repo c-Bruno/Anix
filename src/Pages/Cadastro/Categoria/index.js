@@ -4,47 +4,48 @@ import { Link } from 'react-router-dom'
 import FormField from '../../../componentes/FormField'
 import Button from '../../../componentes/Button'
 import useForm from '../../../hooks/useForms'
+import categoriaRepository from '../../../repositories/categorias';
 
 function CadastroCategoria () {
     
     const valoresIniciais = {
         nome: '',
         descricao: '',
+        url: '',
         cor: '',
     }
 
-    const { digitar, values, clearForm } = useForm(valoresIniciais)
-    const [categorias, setCategorias] = useState([])
+    const [categorias, setCategorias] = useState([])  
     
-
     useEffect(() => {
-        const URL = window.location.hostname.includes('localhost')
-        ? 'http://localhost:8080/categorias'
-        : 'https://devsoltinhoflix.herokuapp.com/categorias';
-
-        fetch(URL)
-        .then(async (respostaDoServidor) => {
-            const resposta = await respostaDoServidor.json();
-            setCategorias([
-                ...resposta,
-            ]);
-        })
+        categoriaRepository
+        .getAll()
+        .then((categoriasFromDB) => setCategorias(categoriasFromDB));
     },[])
+    
+    const { values, digitar, clearForm } = useForm(valoresIniciais)
 
     return (
         <PageDefault>
             <h1>Cadastro de Categoria: {values.nome}</h1>
             
-            <form onSubmit={function handleSubmit(info){
-                info.preventDefault()
-                
-                setCategorias([
-                    ...categorias, 
-                    values,
-                ])
+            <form onSubmit={(e) => {
+                e.preventDefault();
+        
+                categoriaRepository.create({
+                    titulo: values.nome,
+                    cor: values.cor,
+                    link_extra: {
+                    text: values.descricao,
+                    url: values.url,
+                    },
+                }).then(() => categoriaRepository
+                    .getAll()
+                    .then((categoriasFromDB) => setCategorias(categoriasFromDB)));
+        
 
                 clearForm()
-                }}>
+            }}>
 
                 <FormField
                     label={'Nome categoria'}
@@ -61,6 +62,15 @@ function CadastroCategoria () {
                     value={values.descricao}
                     onChange={digitar}
                 />   
+
+                <FormField
+                    label={'URL'}
+                    type={'text'}
+                    name={'url'}              
+                    value={values.url}
+                    onChange={digitar}
+                /> 
+
                 <FormField
                     label={'Cor'}
                     type={'color'}
@@ -81,13 +91,11 @@ function CadastroCategoria () {
             )}
 
             <ul>
-                {categorias.map((categoria, indice) => {
+            {categorias.map((categoria, indice) => {
                     return (
                         <li key={`${categoria}${indice}`}>
                             {categoria.titulo}
-                        </li>
-
-                        
+                        </li>                        
                     )
                 })}
             </ul>

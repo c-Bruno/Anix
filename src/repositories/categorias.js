@@ -27,7 +27,26 @@ function getAllWithVideos() {
     });
 }
 
+async function create(objetoDaCategoria) {
+  return fetch(URL_CATEGORIES, {
+    method: 'POST',
+    headers: {
+      'Content-type': 'application/json',
+    },
+    body: JSON.stringify(objetoDaCategoria),
+  })
+    .then(async (respostaDoServidor) => {
+      if (await respostaDoServidor.ok) {
+        const resposta = await respostaDoServidor.json();
+        return resposta;
+      }
+
+      throw new Error('Não foi possível acessar o banco de dados.');
+    });
+}
+
 export default {
     getAllWithVideos,
     getAll,
+    create,
 }
