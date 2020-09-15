@@ -1,4 +1,11 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+<h1 align="center">
+  <br>
+  <img src="https://github.com/c-Bruno/Anix/blob/master/src/assets/imgs/Logo.png" alt="Animex" width="250">
+  <br>
+</h1>
+
+
+> This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
 
