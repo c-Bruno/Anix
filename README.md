@@ -3,8 +3,8 @@
 </h1>
 
 
-<div align="center" line-height="2.5">
-  <img src="https://github.com/c-Bruno/Anix/blob/master/src/assets/imgs/home.gif" alt="home-web" height="350">
+<div align="center">
+  <img src="https://github.com/c-Bruno/Anix/blob/master/src/assets/imgs/home.gif" alt="home-web" height="350" padding-right="10">
   <img src="https://github.com/c-Bruno/Anix/blob/master/src/assets/imgs/home_mobile.gif" alt="home-mobile" height="350">
 </div>
   
