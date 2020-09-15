@@ -3,13 +3,10 @@
 </h1>
 
 
-<div align="center">
+<div align="center" line-height="1.5">
   <img src="https://github.com/c-Bruno/Anix/blob/master/src/assets/imgs/home.gif" alt="home-web" height="350">
-</div>
-
-<div>
   <img src="https://github.com/c-Bruno/Anix/blob/master/src/assets/imgs/home_mobile.gif" alt="home-mobile" height="350">
- </div
+</div>
   
   
 
