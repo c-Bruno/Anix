@@ -6,7 +6,7 @@
 
 
 <div>
-  <img src="https://github.com/c-Bruno/Anix/blob/master/src/assets/imgs/home.gif" alt="demo-web" height="425">
+  <img src="https://github.com/c-Bruno/Anix/blob/master/src/assets/imgs/home.gif" alt="demo-web" height="425" align="center">
 </div>
 
 
