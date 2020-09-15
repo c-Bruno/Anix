@@ -5,7 +5,7 @@
 </h1>
 
 
-<div>
+<div align="center">
   <img src="https://github.com/c-Bruno/Anix/blob/master/src/assets/imgs/home.gif" alt="home-web" height="350">
 </div>
 
