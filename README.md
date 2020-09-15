@@ -1,5 +1,7 @@
 <h1 align="center">
+  <br>
   <img src="https://github.com/c-Bruno/Anix/blob/master/src/assets/imgs/Logo.png" alt="Animex" width="250">
+  <br>
 </h1>
 
 
