@@ -1,8 +1,6 @@
 <h1 align="center">
-  <img src="https://github.com/c-Bruno/Anix/blob/master/src/assets/imgs/Logo.png" alt="Animex" width="200">
+  <img src="https://github.com/c-Bruno/Anix/blob/master/src/assets/imgs/Logo.png" alt="Animex" width="250">
 </h1>
-
-<p align="center">Projeto desenvolvido durante maratona react da Alura</p>
 
 
 > This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
