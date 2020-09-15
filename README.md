@@ -4,6 +4,12 @@
   <br>
 </h1>
 
+<p align="center">
+  <a href="https://opensource.org/licenses/MIT">
+    <img src="https://github.com/c-Bruno/Anix/blob/master/src/assets/imgs/home.gif" alt="License MIT">
+  </a>
+</p>
+
 
 > This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
