@@ -3,10 +3,12 @@
 </h1>
 
 
-<div align="center">
+<div>
   <img src="https://github.com/c-Bruno/Anix/blob/master/src/assets/imgs/home.gif" alt="home-web" height="350">
+  <img src="https://github.com/c-Bruno/Anix/blob/master/src/assets/imgs/home_mobile.gif" alt="home-mobile" height="350">
 </div>
-
+  
+  
 
 > This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
